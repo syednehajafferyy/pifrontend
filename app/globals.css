@@ -1,0 +1,7 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { background: #FFF6E5; color: #4A2C20; }
+.btn { display:inline-block; padding:.75rem 1.5rem; background:#4A2C20; color:#FFF6E5; border-radius:999px; transition:transform .2s, background .2s; }
+.btn:hover { background:#D9647C; transform:translateY(-2px); }
+.btn-o { background:transparent; color:#4A2C20; border:1.5px solid #4A2C20; }
+.btn-o:hover { color:#FFF6E5; }
+.inp { width:100%; padding:.7rem 1rem; border:1.5px solid #4A2C20; background:transparent; border-radius:.75rem; }
